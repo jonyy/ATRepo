@@ -8,9 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		92A65D0B2A5D617800872E02 /* TestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A65D022A5D617800872E02 /* TestFramework.framework */; };
-		92A65D102A5D617800872E02 /* TestFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A65D0F2A5D617800872E02 /* TestFrameworkTests.swift */; };
 		92A65D112A5D617800872E02 /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 92A65D052A5D617800872E02 /* TestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92A65D1B2A5D618600872E02 /* TestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A65D1A2A5D618600872E02 /* TestFile.swift */; };
+		92A65D212A5D7FF900872E02 /* TestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A65D202A5D7FF900872E02 /* TestFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +26,7 @@
 		92A65D022A5D617800872E02 /* TestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A65D052A5D617800872E02 /* TestFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFramework.h; sourceTree = "<group>"; };
 		92A65D0A2A5D617800872E02 /* TestFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		92A65D0F2A5D617800872E02 /* TestFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFrameworkTests.swift; sourceTree = "<group>"; };
-		92A65D1A2A5D618600872E02 /* TestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFile.swift; sourceTree = "<group>"; };
+		92A65D202A5D7FF900872E02 /* TestFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +51,8 @@
 		92A65CF82A5D617800872E02 = {
 			isa = PBXGroup;
 			children = (
+				92A65D1F2A5D7FF900872E02 /* Sources */,
 				92A65D042A5D617800872E02 /* TestFramework */,
-				92A65D0E2A5D617800872E02 /* TestFrameworkTests */,
 				92A65D032A5D617800872E02 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,17 +70,16 @@
 			isa = PBXGroup;
 			children = (
 				92A65D052A5D617800872E02 /* TestFramework.h */,
-				92A65D1A2A5D618600872E02 /* TestFile.swift */,
 			);
 			path = TestFramework;
 			sourceTree = "<group>";
 		};
-		92A65D0E2A5D617800872E02 /* TestFrameworkTests */ = {
+		92A65D1F2A5D7FF900872E02 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				92A65D0F2A5D617800872E02 /* TestFrameworkTests.swift */,
+				92A65D202A5D7FF900872E02 /* TestFile.swift */,
 			);
-			path = TestFrameworkTests;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,7 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92A65D1B2A5D618600872E02 /* TestFile.swift in Sources */,
+				92A65D212A5D7FF900872E02 /* TestFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +200,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92A65D102A5D617800872E02 /* TestFrameworkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
