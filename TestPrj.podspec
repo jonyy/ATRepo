@@ -50,7 +50,7 @@ s.description  = <<-DESC
 
 
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
-  s.author       = { "ArshadT" => "arshad.tamboli@extentia.com" }
+  s.author       = { "ArshadT" => "arsh.tamboli0@gmail.com" }
   s.source       = { :git => 'https://github.com/jonyy/ATRepo.git', :tag => s.version.to_s }
 
  s.ios.deployment_target = "12.1"
